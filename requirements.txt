@@ -1,0 +1,15 @@
+# Core runtime
+streamlit>=1.49
+PyMuPDF>=1.24
+numpy>=1.26
+scikit-learn>=1.5
+requests>=2.32
+pandas>=2.2
+python-dotenv>=1.0
+
+# Semantic embeddings (pulls in torch). The app degrades gracefully to a
+# TF-IDF embedder if this is not installed or the model cannot be downloaded.
+sentence-transformers>=3.0
+
+# Development / testing
+pytest>=8.0
